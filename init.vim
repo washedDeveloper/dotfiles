@@ -11,6 +11,7 @@ call plug#begin("~/.vim/plugged")
   Plug 'https://github.com/pangloss/vim-javascript'
   Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
   Plug 'preservim/nerdcommenter'
+  Plug 'https://github.com/neoclide/jsonc.vim'
 call plug#end()
 
 "Config Section"
