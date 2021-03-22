@@ -1,5 +1,4 @@
 call plug#begin("~/.vim/plugged")
-  " Plugin Section "
   Plug 'https://github.com/joshdick/onedark.vim'
   Plug 'scrooloose/nerdtree'
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
@@ -7,9 +6,8 @@ call plug#begin("~/.vim/plugged")
   Plug 'leafgarland/typescript-vim'
   Plug 'peitalin/vim-jsx-typescript'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  "Plug 'https://github.com/vim-python/python-syntax'
   Plug 'https://github.com/pangloss/vim-javascript'
-  Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+  Plug 'fatih/vim-go' 
   Plug 'preservim/nerdcommenter'
   Plug 'https://github.com/neoclide/jsonc.vim'
 call plug#end()
@@ -27,6 +25,7 @@ set number
 let mapleader = ","
 set showmode
 
+let g:minimap_auto_start = 1
 let g:NERDTreeShowHidden = 1
 let g:NERDTreeMinimalUI = 1
 let g:NERDTreeIgnore = []
