@@ -1,15 +1,13 @@
+"Essential Plugins"
+"These are plugins used across different languages"
+"Language specific packages can be found in the after/ftplugin directory"
 call plug#begin("~/.vim/plugged")
   Plug 'https://github.com/joshdick/onedark.vim'
   Plug 'scrooloose/nerdtree'
   Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
   Plug 'junegunn/fzf'
-  Plug 'leafgarland/typescript-vim'
-  Plug 'peitalin/vim-jsx-typescript'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
-  Plug 'https://github.com/pangloss/vim-javascript'
-  Plug 'fatih/vim-go' 
   Plug 'preservim/nerdcommenter'
-  Plug 'https://github.com/neoclide/jsonc.vim'
 call plug#end()
 
 "Config Section"
