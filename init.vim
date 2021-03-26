@@ -23,6 +23,7 @@ set pastetoggle=<F2>
 set number
 let mapleader = ","
 set showmode
+set belloff=all
 
 let g:minimap_auto_start = 1
 let g:NERDTreeShowHidden = 1
