@@ -8,6 +8,7 @@ call plug#begin("~/.vim/plugged")
   Plug 'junegunn/fzf'
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'preservim/nerdcommenter'
+  Plug 'haze/sitruuna.vim'
 call plug#end()
 
 "Config Section"
@@ -15,7 +16,7 @@ if (has("termguicolors"))
      set termguicolors
 endif
 syntax enable
-colorscheme onedark
+colorscheme sitruuna
 
 nnoremap <F2> :set invpaste paste?<CR>
 set pastetoggle=<F2>
